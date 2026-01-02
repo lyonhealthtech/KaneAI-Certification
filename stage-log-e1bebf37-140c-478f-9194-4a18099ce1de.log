@@ -1,0 +1,50 @@
+Browser:  chrome
+Updated max network wait to:  10
+Updated network wait for all actions to:  True
+Updated wait buffer to:  0.2
+Loading Config ...
+Config file path: /home/ltuser/foreman/ltuser/None.json
+Config file not found, using environment variables
+Chrome Setup Successful
+
+open url https://ecommerce-playground.lambdatest.io/
+[Smart Wait] Waited for: 205.37890625 ms
+
+type iPhone
+[Smart Wait] Waited for: 783.7578125 ms
+Finding element...
+is_retry:  False
+Element found using locator: {'isXPath': True, 'score': 60, 'selector': "//div[@id='entry_217822']/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]/input[1]"}
+[Smart Wait] Waited for: 397.697021484375 ms
+Max wait until time:  10
+Selenium click successful.
+[Smart Wait] Waited for: 209.942626953125 ms
+
+Select iPhone autocomplete item
+[Smart Wait] Waited for: 444.61474609375 ms
+Updating meta data...
+Operation Intent:  Select iPhone autocomplete item
+Heal Resolve... code_export_id:  ffb6492a63f24efb
+Updating meta data...
+Finding element...
+is_retry:  False
+Element found using locator: //html/body/div[1]/div[5]/header/div[2]/div[1]/div[2]/div/form/div/div[1]/div[2]/ul/li[1]/div[2]/h4/a
+Max wait until time:  10
+Selenium click successful.
+
+Probe product heading for iPhone
+Waiting '5.5 seconds' before performing vision query....
+Operation Intent:  Probe product heading for iPhone
+Heal Vision Query... code_export_id:  c3e330bb4bf74b1c
+Kane Version:  v2
+Vision Response:  {"vision_query":"iPhone","tag_id":"","operation":"","target_element_property":"","query_content":"iPhone","target_element_name":"","reasoning":"","regex":""}
+Operation output: product_heading = iPhone
+[Smart Wait] Waited for: 221.3203125 ms
+Assertion result: True
+assertion_result:  True
+.
+
+----------------------------------------------------------------------
+Ran 1 test in 53.632s
+
+OK
